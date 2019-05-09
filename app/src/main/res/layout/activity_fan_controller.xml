@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stone.demoview.view.fanControllerView
+        android:id="@+id/fan_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_0_1_control_fan" />
+        <EditText
+            android:id="@+id/et_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input1_9_key" />
+        <EditText
+            android:id="@+id/et_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_0_1_get_main"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:onClick="setMainUI"/>
+    </LinearLayout>
+</LinearLayout>

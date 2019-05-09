@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoView</string>
+    <string name="get_time_diff">获取时间差</string>
+    <string name="input_0_1_control_fan">输入0/1 控制风扇 停止/转动</string>
+    <string name="input1_9_key">输入1-9，调节档位</string>
+    <string name="input_0_1_get_main">输入0/1定义主界面</string>
+    <string name="ok">确认</string>
+</resources>

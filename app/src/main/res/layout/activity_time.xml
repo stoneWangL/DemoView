@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sw="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.stone.demoview.view.TimeView
+        android:id="@+id/time_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sw:timeView_background_color="@color/gray"
+        >
+    </com.stone.demoview.view.TimeView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_time_diff"
+            android:onClick="getTimeDiff"/>
+
+        <TextView
+            android:id="@+id/tv_time_diff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
